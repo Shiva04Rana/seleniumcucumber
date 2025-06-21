@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 102.564 s <<< FAILURE! - in TestSuite
+cucumberOptions.TestNGTestRunner.runScenario["Pick a vibe and explore the top destinations in India", "Search and book stays"](1)  Time elapsed: 101.231 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because the return value of "java.util.Optional.orElse(Object)" is null
+

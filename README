@@ -1,0 +1,4 @@
+Cucumber dependency injection -
+  Dependency - Pico Container
+  create a public class in utilis and add all the variables which you want to share across different step definition files and create a constructor in step defination with parameter as object of shared class 
+  and assign the global shared class variable and assign the value on constructor and call the variable using shared class  
